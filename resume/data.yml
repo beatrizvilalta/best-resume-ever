@@ -1,80 +1,86 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  first: Beatriz
+  middle: Vilalta
+  last: Jiménez
+about: Hi my name is Beatriz, I am working as a Quality Assurance. I love working with BDD and I am interested in automation testing with Cucumber and Capybara and opened to learn even more.
+position: Quality Assurance
 
 birth:
-  year: 1990
-  location: New York
+  year: 2000
+  location: Rio de Janeiro
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Stant
+  position: Quality Assurance
+  timeperiod: since October 2020
+  description: Executing and planning tests in all of the company’s products (android, iOS, web, API), increasing the quality and its trust through different kinds of testing techniques like white box, black box and grey box testing. I am currently starting the automation project with the QA team.
+  website: https://www.stant.com.br/
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Let's Go Language School
+  position: English intructor
+  timeperiod: October 2018 - February 2020
+  description: Kintergarden and elemantary school english teacher.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Major in English
+  timeperiod: 2017 - present
+  description: Major in English, University Estacio de Sá, Maceió - AL
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Automation testing with Cucumber and Capybara
+  timeperiod: October 2020 - present
+  description: Udemy Course
+
+- degree: Algorithm and Programming logics from basic to advanced
+  timeperiod: May 2020 - June 2020
+  description: Udemy Course
+
+- degree: Basic HTML
+  timeperiod: July 2020 - July 2020
+  description: https://www.cursoemvideo.com
+
+- degree: Object-oriented programming in Java
+  timeperiod: August 2020 - present
+  description: Udemy Course
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
+- name: Ruby
   level: 60
-- name: TypeScript
+- name: Cucumber
   level: 80
-- name: ES.Next
+- name: Capybara
+  level: 65
+- name: Rspec
+  level: 65  
+- name: HTML
+  level: 80
+- name: CSS
+  level: 65
+- name: Java
   level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Git
+  level: 60
+knowledge: Also proficient in English (FCE - First Cambridge Exam), grew up bilingual (Portuguese and Spanish).
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: beas-notas
+  platform: C/Java
+  timeperiod: April 2020 - present
+  description: A program that calculates the grades and gives the answer key of a test based on the data inserted by the user.
+  url: https://github.com/beatrizvilalta/Beas-notas-C
 
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+- name: Dog-with-a-blog
+  platform: HTML/CSS
+  timeperiod: July 2020 - present
+  description: A study project to exercise the content that I've lernt with the HTML course.
+  url: https://github.com/beatrizvilalta/
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+- name: Study projects
+  platform: C/Java/HTML/CSS
+  timeperiod: April 2020 - present
+  description: Several projects made during my learning experience.
+  url: https://github.com/beatrizvilalta/
 
 contributions:
 - name: best-resume-ever
@@ -82,12 +88,12 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: beatrizvilaltajimenez@gmail.com
+  phone: +55 82 998137702
+  street: Senador Rui Palmeira, 139
+  city: Maceió
+  website: https://www.linkedin.com/in/beatriz-vilalta/
+  github: beatrizvilalta
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
