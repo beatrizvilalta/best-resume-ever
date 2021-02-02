@@ -4,17 +4,24 @@ name:
   middle: Vilalta
   last: Jiménez
 about: Hi my name is Beatriz, I am working as a Quality Assurance but I am looking for an opporturnity to transition to development. I've learned to code in Java and Ruby but I am opened to learn any language.
-position: Quality Assurance
+position: Developer
 
 birth:
   year: 2000
   location: Rio de Janeiro
 
 experience:
+
+- company: Stant
+  position: Quality Assurance focused in Automation
+  timeperiod: Since December 2020
+  description: Creating automation project at stant from scratch using Ruby with Cucumber and Capybara
+  website: https://www.stant.com.br/
+
 - company: Stant
   position: Quality Assurance
-  timeperiod: since October 2020
-  description: Executing and planning tests in all of the company’s products (android, iOS, web, API), increasing the quality and its trust through different kinds of testing techniques like white box, black box and grey box testing. I am currently starting the automation project with the QA team.
+  timeperiod: October 2020 - December 2020
+  description: Executing and planning tests in all of the company’s products (android, iOS, web, API), increasing the quality and its trust through different kinds of testing techniques like white box, black box and grey box testing.
   website: https://www.stant.com.br/
 
 - company: Let's Go Language School
@@ -27,8 +34,8 @@ education:
   timeperiod: 2017 - present
   description: Major in English, University Estacio de Sá, Maceió - AL
 
-- degree: Automation testing with Cucumber and Capybara
-  timeperiod: October 2020 - December 2020
+- degree: Object-oriented programming in Java
+  timeperiod: August 2020 - December 2020
   description: Udemy Course
 
 - degree: Algorithm and Programming logics from basic to advanced
@@ -39,30 +46,28 @@ education:
   timeperiod: November 2020 - present
   description: Udemy Course
 
-- degree: Object-oriented programming in Java
-  timeperiod: August 2020 - present
-  description: Udemy Course
+# - degree: Automation testing with Cucumber and Capybara
+#   timeperiod: October 2020 - December 2020
+#   description: Udemy Course
 
 # skill level goes 0 to 100
 skills:
+- name: Git
+  level: 65
 - name: Ruby
-  level: 60
+  level: 70
+- name: Java
+  level: 75
 - name: Cucumber
   level: 80
 - name: Capybara
   level: 65
 - name: Rspec
-  level: 65  
-- name: HTML
-  level: 80
-- name: CSS
-  level: 65
-- name: Java
-  level: 70
+  level: 65 
 - name: SQL
   level: 40
-- name: Git
-  level: 60
+- name: Bash
+  level: 40
 knowledge: Also proficient in English (FCE - First Cambridge Exam), grew up bilingual (Portuguese and Spanish).
 
 projects:
